@@ -1,6 +1,8 @@
 .landing-page {
   background-color: #eff3f5;
   padding-bottom: 40px;
+  display: flex;
+
 
 
 }
@@ -61,7 +63,7 @@
   font-weight: 600;
   text-align: center;
   margin-top: 10px;
-  }
+}
 
 
 .sub-card-heading {
@@ -98,4 +100,63 @@
   border-radius: 100px;
   margin-top: 16px;
   margin-bottom: 7px;
- }
+}
+
+.box {
+  width: 60%;
+  background-color: #5a981b;
+  border-radius: 40px;
+  padding: 33px;
+  color: white;
+  margin-bottom: 28px;
+
+}
+
+.box ul {
+  font-family: "League Spartan", sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.box:hover {
+  width: 60%;
+  background-color: #21212d;
+  border-radius: 80px;
+  padding: 33px;
+  color: white;
+
+}
+
+.join-align {
+  padding: 85px;
+  display: flex;
+  font-family: "League Spartan", sans-serif;
+  font-size: 30px;
+}
+
+.quote-image {
+  width: 53px;
+  height: auto;
+  margin-top: -22px;
+}
+
+.join-btn {
+  font-family: "League Spartan", sans-serif;
+  width: 116px;
+  margin: 41px;
+  background-color: #5a981b;
+  border: none;
+  border-radius: 25px;
+  color: white;
+}
+
+.join-btn:hover {
+  font-family: "League Spartan", sans-serif;
+  width: 116px;
+  margin: 41px;
+  background-color: #21212d;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  background-color:  #b9ef05;
+}

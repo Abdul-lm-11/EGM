@@ -46,6 +46,7 @@ mat-accordion {
     display: flex;
     font-size: 22px;
     font-family: "League Spartan", sans-serif;
+    margin-bottom: 50px;
     
   }
 

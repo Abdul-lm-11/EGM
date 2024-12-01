@@ -1,21 +1,49 @@
 <div class="container-fluid landing-page">
     <div class="container">
         <div class="row">
-            <div class="heading">
-                Leadership Team
+            <div class="col-12 text-center">
+                <div class="heading">Leadership Team</div>
             </div>
-                        
-            <div class="approach-card-align" *ngFor=" let cards of teamcard">
-                <div class="approach-card"  >
-                    <img src="{{cards.imageurl}}" alt="" class="card-image">
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-12 mb-4 d-flex align-items-stretch" *ngFor="let cards of teamcard">
+                <div class="approach-card w-100">
+                    <img src="{{cards.imageurl}}" alt="" class="card-image img-fluid">
                     <div class="card-heading">{{cards.heading}}</div>
                     <div class="sub-card-heading">{{cards.subheading}}</div>
                     <div class="team-text">
-                       {{cards.text}}
+                        {{cards.text}}
                     </div>
-                    
+                </div>
+            </div>
+
+            <div class="col-12 justify-content-center">
+                <div class="heading">Why Choose Eden Green Mobility?</div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="box ">
+                    <ul>
+                        <li> <b>Sustainability:</b> Reducing carbon footprints with solar-powered charging.</li>
+                        <li> <b>Inclusivity:</b> Creating job opportunities for underrepresented communities.</li>
+                        <li> <b>Innovation:</b> Offering cutting-edge fleet management tools.</li>
+                        <li> <b>Proven Leadership:</b> A team of industry veterans driving sustainable growth.</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+
+<div class="container join-align">
+    <div class="row">
+        <div class="col-9">
+            <img src="quote.svg" alt="" class="quote-image"> Be part of a cleaner and greener future with<br> <b>Eden Green Mobility</b>. Whether you're an investor, fleet
+            operator, or end user, our tailored solutions are designed to meet your needs.
+        </div>
+        <div class="col-3">
+            <button class="join-btn">Join</button>
+        </div>
+    </div>
+
 </div>
