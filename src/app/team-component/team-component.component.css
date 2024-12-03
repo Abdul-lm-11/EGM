@@ -1,33 +1,27 @@
-@media only screen and (min-width:1200px) {
-
-
-
-
+@media only screen and (min-width: 1200px) {
   .landing-page {
     background-color: #eff3f5;
     padding-bottom: 40px;
+  }
 
-
+  .heading,
+  .subheading {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 45px;
   }
 
   .heading {
-    font-family: "League Spartan", sans-serif;
     font-size: 40px;
     color: #008000;
-    font-weight: 600;
-    text-align: center;
     margin-top: 70px;
-    margin-bottom: 45px;
-
   }
 
   .subheading {
-    font-family: "League Spartan", sans-serif;
     font-size: 27px;
-    margin-top: 30px;
     color: #5a981b;
-    font-weight: 600;
-    text-align: center;
+    margin-top: 30px;
   }
 
   .container {
@@ -37,16 +31,12 @@
     justify-content: center;
   }
 
-
-
-
   .approach-card-align {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
   }
-
 
   .approach-card {
     width: calc(33.333% - 20px);
@@ -55,54 +45,45 @@
     border-radius: 80px;
     padding: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: inline-block;
     text-align: center;
   }
 
-
-  .card-heading {
+  .card-heading,
+  .sub-card-heading {
     font-family: "League Spartan", sans-serif;
-    font-size: 27px;
     font-weight: 600;
     text-align: center;
+  }
+
+  .card-heading {
+    font-size: 27px;
     margin-top: 10px;
   }
 
-
   .sub-card-heading {
-    font-family: "League Spartan", sans-serif;
     font-size: 24px;
-    font-weight: 600;
-    text-align: center;
     margin-top: 6px;
   }
-
 
   .team-text {
     font-family: "League Spartan", sans-serif;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    margin-top: 6px;
     color: #5a981b;
     padding: 20px;
+    margin-top: 6px;
   }
-
 
   .card-image {
     width: 50%;
-    text-align: center;
     border-radius: 100px;
-    margin-top: 16px;
-    margin-bottom: 7px;
+    margin: 16px 0 7px;
+    transition: width 0.3s ease;
   }
 
   .card-image:hover {
     width: 60%;
-    text-align: center;
-    border-radius: 100px;
-    margin-top: 16px;
-    margin-bottom: 7px;
   }
 
   .box {
@@ -112,7 +93,7 @@
     padding: 33px;
     color: white;
     margin-bottom: 28px;
-
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
   }
 
   .box ul {
@@ -122,12 +103,8 @@
   }
 
   .box:hover {
-    width: 60%;
     background-color: #21212d;
     border-radius: 80px;
-    padding: 33px;
-    color: white;
-
   }
 
   .join-align {
@@ -151,48 +128,31 @@
     border: none;
     border-radius: 25px;
     color: white;
+    transition: background-color 0.3s ease;
   }
 
   .join-btn:hover {
-    font-family: "League Spartan", sans-serif;
-    width: 116px;
-    margin: 41px;
-    background-color: #21212d;
-    border: none;
-    border-radius: 25px;
-    color: white;
     background-color: #b9ef05;
   }
 }
 
-
-@media only screen and (max-width:600px) {
-
+@media only screen and (max-width: 600px) {
   .landing-page {
     background-color: #eff3f5;
     padding-bottom: 40px;
-
-
   }
 
   .heading {
-    font-family: "League Spartan", sans-serif;
     font-size: 32px;
     color: #008000;
-    font-weight: 600;
-    text-align: center;
     margin-top: 26px;
     margin-bottom: 27px;
-
   }
 
   .subheading {
-    font-family: "League Spartan", sans-serif;
     font-size: 27px;
-    margin-top: 30px;
     color: #5a981b;
-    font-weight: 600;
-    text-align: center;
+    margin-top: 30px;
   }
 
   .container {
@@ -202,9 +162,6 @@
     justify-content: center;
   }
 
-
-
-
   .approach-card-align {
     display: flex;
     justify-content: center;
@@ -212,62 +169,41 @@
     gap: 20px;
   }
 
-
   .approach-card {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 20px;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: inline-block;
     text-align: center;
     margin-bottom: 20px;
   }
 
-
-  .card-heading {
-    font-family: "League Spartan", sans-serif;
+  .card-heading,
+  .sub-card-heading {
     font-size: 24px;
     font-weight: 600;
-    text-align: center;
     margin-top: 10px;
   }
 
-
-  .sub-card-heading {
-    font-family: "League Spartan", sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 6px;
-  }
-
-
   .team-text {
-    font-family: "League Spartan", sans-serif;
     font-size: 20px;
     font-weight: 400;
-    text-align: center;
-    margin-top: 6px;
     color: #5a981b;
     padding: 13px;
+    margin-top: 6px;
+    text-align: center;
   }
-
 
   .card-image {
     width: 40%;
-    text-align: center;
     border-radius: 100px;
-    margin-top: 16px;
-    margin-bottom: 7px;
+    margin: 16px 0 7px;
+    transition: width 0.3s ease;
   }
 
   .card-image:hover {
     width: 60%;
-    text-align: center;
-    border-radius: 100px;
-    margin-top: 16px;
-    margin-bottom: 7px;
   }
 
   .box {
@@ -277,30 +213,17 @@
     padding: 33px;
     color: white;
     margin-bottom: 28px;
-
   }
 
   .box ul {
-    font-family: "League Spartan", sans-serif;
     font-size: 20px;
-    margin-top: 0px;
+    margin: 0;
+    padding: 0;
     justify-content: center;
-    padding: 0px;
   }
 
-  /* .box:hover {
-    width: 60%;
-    background-color: #21212d;
-    border-radius: 80px;
-    padding: 33px;
-    color: white;
-  
-  }
-   */
   .join-align {
     padding: 26px;
-    display: flex;
-    font-family: "League Spartan", sans-serif;
     font-size: 24px;
     text-align: center;
     margin-top: 20px;
@@ -313,27 +236,17 @@
   }
 
   .join-btn {
-    font-family: "League Spartan", sans-serif;
     width: 116px;
     background-color: #5a981b;
     border: none;
     border-radius: 25px;
     color: white;
-    margin-top: 23px;
-    margin-left: 92px;
+    margin: 23px auto;
+    display: block;
+    transition: background-color 0.3s ease;
   }
 
-
-.join-btn:hover {
-  font-family: "League Spartan", sans-serif;
-  width: 116px;
-  background-color: #21212d;
-  border: none;
-  border-radius: 25px;
-  color: white;
-  background-color: #b9ef05;
-  margin-top: 23px;
-    margin-left: 92px;
-}
-
+  .join-btn:hover {
+    background-color: #b9ef05;
+  }
 }
