@@ -1,3 +1,74 @@
+@media only screen and (min-width:1200px) {
+
+    .mbview {
+        display: none;
+    }
+
+    .footer-align {
+        background-color: #21212d;
+
+    }
+
+    .footer-image {
+        width: 100%;
+        padding: 28px 61px 32px 67px;
+    }
+
+    .quick-links {
+        list-style: none;
+        color: rgb(255, 255, 255);
+        font-family: "League Spartan", sans-serif;
+        font-size: 20px;
+    }
+
+    .quick-link-align {
+        margin-top: 24px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .link-head {
+        font-size: 25px;
+        list-style: none;
+        color: rgb(255, 255, 255);
+        font-family: "League Spartan", sans-serif;
+    }
+
+    .phone {
+        padding: 0px 0px 41px 68px;
+        color: white;
+        font-family: "League Spartan", sans-serif;
+        font-size: 20px;
+    }
+
+    .Address {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-family: "League Spartan", sans-serif;
+        padding: 25px;
+    }
+
+    .social-media {
+        width: 62%;
+        padding: 5px;
+
+    }
+
+    .social-icon {
+        margin-top: 24px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+.dtview {
+    display: none;
+}
+
 .footer-align {
     background-color: #21212d;
 
@@ -5,14 +76,14 @@
 
 .footer-image {
     width: 100%;
-    padding: 28px 61px 32px 67px;
+    padding: 21px;
 }
 
 .quick-links {
     list-style: none;
     color: rgb(255, 255, 255);
     font-family: "League Spartan", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .quick-link-align {
@@ -25,32 +96,43 @@
 }
 
 .link-head {
-    font-size: 25px;
+    font-size: 20px;
     list-style: none;
     color: rgb(255, 255, 255);
     font-family: "League Spartan", sans-serif;
 }
 
-.phone{
-    padding: 0px 0px 41px 68px;
+.phone {
     color: white;
     font-family: "League Spartan", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 12px;
 }
 
-.Address{
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    font-family: "League Spartan", sans-serif;
-    padding: 25px;
+.Address {
+    font-size: 17px;
+        color: rgb(255, 255, 255);
+        font-family: "League Spartan", sans-serif;
+        padding: 13px;
 }
 
-.social-media{
-    width: 62%;
+.social-media {
+    width: 15%;
     padding: 5px;
 
 }
 
-.social-icon{
-    margin-top: 24px;
+.social-icon {
+    margin-top: 7px;
+        padding: 4px;
+        margin-bottom: 8px;
+}
+
+.copyrights{
+    color: white;
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+}
+
 }
