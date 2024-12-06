@@ -121,9 +121,9 @@
     }
     
     .About-image {
-        width: 109%;
-        height: 84%;
-        margin-top: 56px;
+        width: 105%;
+        height: 63%;
+        margin-top: 96px;
     }
     
     .heading {
@@ -145,7 +145,7 @@
     
     .about-text{
         font-family: "League Spartan", sans-serif;
-        font-size: 13px;
+        font-size: 17px;
         margin-top: 0px;
         font-weight: 400;
         text-align: justify;
@@ -156,9 +156,10 @@
     }
     
     .quote-image{
-        width: 31px;
+        width: 23px;
         height: auto;
         margin-top: -9px;
+    
     }
     
     .mis-con{
@@ -183,10 +184,10 @@
     }
     
     .mis-text{
-        font-size: 10px;
+        font-size: 12px;
         font-family: "League Spartan", sans-serif;
         margin-top: 7px;
-        margin-left: 8px;
+        margin-left:-3px;
     }
     
     .about-svg{

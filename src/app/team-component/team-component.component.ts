@@ -22,7 +22,7 @@ export class TeamComponentComponent {
     },
     
     {imageurl:"Landing-image.jpg",
-      heading:"Mr. Satyanarayanan",
+      heading:"Mr. Sathya",
       subheading:"Technical Head (IT)",
       text:"An expert in ICT and AI, Mr. Sathya leads the development of advanced IT systems for EGM’s digital transformation."
     }

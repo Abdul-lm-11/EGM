@@ -100,7 +100,7 @@ body {
   width: 100%;
 }
 
-/* Large Screens */
+
 @media only screen and (min-width: 1200px) {
   .mdview {
       display: none;
@@ -111,18 +111,122 @@ body {
   }
 }
 
-/* Medium Screens */
+
 @media only screen and (min-width: 600px) and (max-width: 1199px) {
   .mdview {
-      display: none;
-  }
+    display: none;
+}
 
+.approach-card {
+    width: calc(33.333% - 20px);
+}
+
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "League Spartan", sans-serif;
+    background-color: #eff3f5;
+  }
+  
+  .landing-page {
+    background-color: #eff3f5;
+    padding-bottom: 40px;
+  }
+  
+  .heading {
+    font-size: 30px;
+    color: #008000;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .subheading {
+    font-size: 19px;
+    margin-top: 30px;
+    color: #5a981b;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .approach-card-align {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
   .approach-card {
-      width: calc(50% - 20px);
+    background-color: white;
+    border: 0px solid #ddd;
+    border-radius: 0px;
+    padding: -32px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 36%;
+    
+  }
+  
+  .approach-img {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    transition: padding 0.3s ease;
+  }
+  
+  .approach-img:hover {
+    padding: 1px;
+  }
+  
+  .card-heading {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 224px;
+  }
+  
+  .bullet-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bullet-item {
+    position: relative;
+    padding-left: 30px;
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  
+  .bullet-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 18px;
+    height: 18px;
+    background-image: url('../../../public/auto.svg');
+    background-size: cover;
+  }
+  
+  .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 }
 
-/* Small Screens */
+
 @media only screen and (max-width: 599px) {
   .dtview {
       display: none;

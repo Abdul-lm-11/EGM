@@ -57,90 +57,71 @@
     }
     }
     @media only screen and (min-width: 600px) and (max-width: 1199px) {
-    
-      
-        .landing-page {
-            background-color: #0f0f0f;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            overflow-x: hidden;
+
+
+
+        .landing-page{
+            background-color:#0f0f0f;
         }
         
-        
-        .landing-1 {
-            padding: 20px; 
-            margin-top: 95px;
-            text-align: center;
-        
+        .landing-1{
+            padding: 10px;
+            margin-top: 200px;
         }
-       
-    
         
-        .Landing-image {
-            margin-left: 77px;
-            margin-top: 157px;
-            width: 90%;
-            max-width: 603px;
-            height: auto; 
+        .Landing-image{
+            margin-top: 115px;
+            width: 100%;
         }
-       
-        .Heading-text {
+        
+        .Heading-text{
+            margin-top: -61px;
             color: #6abe52;
-            font-size: 30px;
+            font-size: 34px;
             font-family: "League Spartan", sans-serif;
-            font-weight: 500;
-            margin-bottom: -13px;
-            text-align: center;
+            font-weight: 600;
         }
         
-        .sub-heading-text {
+        .sub-heading-text{
             font-family: "League Spartan", sans-serif;
-            color: #ffffff;
-            font-size: 20px;
-            margin-top: 11px;
-            text-align: center;
-        }
-        
-       
-        .landing-text {
-            font-family: "League Spartan", sans-serif;
-            color: #ffffff;
+            color: white;
             font-size: 17px;
-            margin-top: 4px;
-            text-align: center;
-            line-height: 1.5;
+            margin-top: 3px;
+        }
         }
         
-     
-        .green-text {
+        .landing-text{
+            font-family: "League Spartan", sans-serif;
+            color: white;
+            text-align: justify;
+            font-size: 15px;
+            margin-top: 11px;
+        }
+        
+        
+        .green-text{
             color: #6abe52;
-            font-weight: bold;
         }
         
-        .Readmore-btn {
+        .Readmore-btn{
             background-color: #6abe52;
             border: none;
-            margin-top: 30px;
-            padding: 10px 20px; 
-            width: 200px; 
-            height: auto;
-            color: #ffffff;
+            margin-top: 16px;
+            width: 27%;
+            height: 8%;
+            color: white;
             font-family: "League Spartan", sans-serif;
-            font-size: 18px; 
-            text-align: center;
-            border-radius: 8px; 
-            cursor: pointer;
-            transition: background-color 0.3s, color 0.3s;
+            font-size: 14px;
+        
         }
         
-        .Readmore-btn:hover {
+        .Readmore-btn:hover{
             background-color: #f0f0f0;
             color: #6abe52;
         }
-    }
+        
+    
+    
     
     
     @media only screen and (max-width:599px)

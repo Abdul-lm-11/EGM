@@ -121,20 +121,172 @@
   }
 
   .join-btn {
-    font-family: "League Spartan", sans-serif;
-    width: 116px;
-    margin: 41px;
-    background-color: #5a981b;
-    border: none;
-    border-radius: 25px;
-    color: white;
-    transition: background-color 0.3s ease;
+    padding: 105px;
+        display: flex;
+        font-family: "League Spartan", sans-serif;
+        font-size: 20px;
   }
 
   .join-btn:hover {
     background-color: #b9ef05;
   }
 }
+
+
+@media only screen and (min-width:600px) and (max-width:1200px){
+
+
+  .col-sm-9 {
+    
+      flex: 0 0 auto;
+      width: 100%;
+      text-align: center;
+  
+}
+
+
+  .landing-page {
+    background-color: #eff3f5;
+    padding-bottom: 40px;
+  }
+
+  .heading,
+  .subheading {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .heading {
+    font-size: 30px;
+    color: #008000;
+    margin-top: 26px;
+  }
+
+  .subheading {
+    font-size: 27px;
+    color: #5a981b;
+    margin-top: 30px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .approach-card-align {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .approach-card {
+    width: calc(33.333% - 20px);
+    background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 30px;
+        padding: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    
+  }
+
+  .card-heading,
+  .sub-card-heading {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .card-heading {
+    font-size: 21px;
+    margin-top: 10px;
+  }
+
+  .sub-card-heading {
+    font-size: 18px;
+    margin-top: 6px;
+  }
+
+  .team-text {
+    font-family: "League Spartan", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #5a981b;
+    /* padding: 20px; */
+    margin-top: 6px;
+  }
+
+  .card-image {
+    width: 50%;
+    border-radius: 100px;
+    margin: 16px 0 7px;
+    transition: width 0.3s ease;
+  }
+
+  .card-image:hover {
+    width: 60%;
+  }
+
+  .box {
+    width: 60%;
+    background-color: #5a981b;
+    border-radius: 40px;
+    padding: 33px;
+    color: white;
+    margin-bottom: 28px;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+  }
+
+  .box ul {
+    font-family: "League Spartan", sans-serif;
+    font-size: 19px;
+    margin-top: 20px;
+  }
+
+  .box:hover {
+    background-color: #21212d;
+    border-radius: 80px;
+  }
+
+  .join-align {
+    padding: 85px;
+    display: flex;
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+  }
+
+  .quote-image {
+    width: 28px;
+    height: auto;
+    margin-top: -12px;
+  }
+
+  .join-btn {
+    font-family: "League Spartan", sans-serif;
+    width: 86px;
+    margin: 226px;
+    background-color: #5a981b;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    transition: background-color 0.3s ease;
+    /* margin-right: 99px; */
+    margin-top: 34px;
+    
+  }
+
+  .join-btn:hover {
+    background-color: #b9ef05;
+  }
+}
+
+  
 
 @media only screen and (max-width: 600px) {
   .landing-page {
