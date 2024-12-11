@@ -121,10 +121,15 @@
   }
 
   .join-btn {
-    padding: 105px;
-        display: flex;
-        font-family: "League Spartan", sans-serif;
-        font-size: 20px;
+    font-family: "League Spartan", sans-serif;
+    width: 86px;
+    margin-righ:30px;
+    background-color: #5a981b;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    transition: background-color 0.3s ease;
+    margin-top: 34px;
   }
 
   .join-btn:hover {
