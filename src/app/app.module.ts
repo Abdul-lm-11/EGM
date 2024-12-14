@@ -11,6 +11,7 @@ import { AboutComponentComponent } from './about-component/about-component.compo
 import { OurApprouchComponentComponent } from './our-approuch-component/our-approuch-component.component';
 import { OurServiceComponentComponent } from './our-service-component/our-service-component.component';
 import { TeamComponentComponent } from './team-component/team-component.component';
+import { GalaryComponent } from './galary/galary.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { TeamComponentComponent } from './team-component/team-component.componen
     AboutComponentComponent,
     OurApprouchComponentComponent,
     OurServiceComponentComponent,
-    TeamComponentComponent
+    TeamComponentComponent,
+    GalaryComponent
   ],
   imports: [
     BrowserModule,
