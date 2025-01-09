@@ -37,19 +37,3 @@
     color: #6abe52;
 }
 
-.Readmore-btn{
-    background-color: #6abe52;
-    border: none;
-    margin-top: 36px;
-    width: 23%;
-    height: 7%;
-    color: white;
-    font-family: "League Spartan", sans-serif;
-    font-size: 20px;
-
-}
-
-.Readmore-btn:hover{
-    background-color: #f0f0f0;
-    color: #6abe52;
-}
